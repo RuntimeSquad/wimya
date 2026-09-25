@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Terms of Service for Wimya, operated by Snaap, Inc.">
+  <title>Wimya Terms of Service</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --background: #f5f7fb;
+      --surface: #ffffff;
+      --text: #172033;
+      --muted: #5f6878;
+      --accent: #3157d5;
+      --border: #dfe4ec;
+      --shadow: 0 16px 44px rgba(31, 44, 74, 0.10);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    main {
+      width: min(820px, calc(100% - 32px));
+      margin: 48px auto;
+      padding: clamp(28px, 6vw, 72px);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      box-shadow: var(--shadow);
+    }
+
+    h1, h2 { line-height: 1.25; }
+    h1 { margin: 0 0 8px; font-size: clamp(2rem, 6vw, 3.25rem); letter-spacing: -0.035em; }
+    h2 { margin-top: 2.4rem; font-size: 1.35rem; letter-spacing: -0.015em; }
+    p, li { max-width: 72ch; }
+    a { color: var(--accent); text-underline-offset: 0.15em; }
+    address { font-style: normal; }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-size: 0.78rem;
+      font-weight: 750;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .effective-date { margin: 0; color: var(--muted); }
+
+    .notice {
+      margin: 32px 0;
+      padding: 18px 20px;
+      border-left: 4px solid var(--accent);
+      border-radius: 8px;
+      background: #f0f4ff;
+    }
+
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 26px 0 6px; }
+
+    button {
+      appearance: none;
+      padding: 10px 16px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: var(--surface);
+      color: var(--text);
+      font: inherit;
+      font-weight: 650;
+      cursor: pointer;
+    }
+
+    button:hover { border-color: var(--accent); color: var(--accent); }
+    button:focus-visible, a:focus-visible { outline: 3px solid #8eabff; outline-offset: 3px; }
+
+    .contents {
+      margin: 32px 0;
+      padding: 22px 24px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    .contents h2 { margin-top: 0; }
+    .contents ol { columns: 2; column-gap: 36px; padding-left: 1.25rem; }
+    .contents li { break-inside: avoid; margin-bottom: 0.25rem; }
+    .legal-caps { font-size: 0.93rem; font-weight: 650; }
+    footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--muted); }
+
+    @media (max-width: 620px) {
+      main { width: 100%; margin: 0; border: 0; border-radius: 0; }
+      .contents ol { columns: 1; }
+    }
+
+    @media print {
+      body { background: #fff; font-size: 11pt; }
+      main { width: 100%; margin: 0; padding: 0; border: 0; box-shadow: none; }
+      .actions, .contents { display: none; }
+      h2 { break-after: avoid; }
+      a { color: inherit; text-decoration: none; }
+      footer { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">Wimya legal</p>
+      <h1>Terms of Service</h1>
+      <p class="effective-date"><strong>Effective date:</strong> September 25, 2026</p>
+      <div class="actions" aria-label="Document actions">
+        <button type="button" onclick="window.print()">Print or save as PDF</button>
+        <button type="button" onclick="downloadTerms()">Download HTML</button>
+      </div>
+    </header>
+
+    <div class="notice">
+      <strong>Please read these Terms carefully.</strong> By creating an account, accessing, or using Wimya, you agree to these Terms of Service. If you do not agree, do not use Wimya.
+    </div>
+
+    <nav class="contents" aria-label="Table of contents">
+      <h2>Contents</h2>
+      <ol>
+        <li><a href="#who-we-are">Who we are</a></li>
+        <li><a href="#eligibility">Eligibility</a></li>
+        <li><a href="#service">The service</a></li>
+        <li><a href="#accounts">Accounts</a></li>
+        <li><a href="#permissions">Device permissions</a></li>
+        <li><a href="#content">Your content</a></li>
+        <li><a href="#conduct">Acceptable use</a></li>
+        <li><a href="#events">Events and other users</a></li>
+        <li><a href="#third-parties">Third-party services</a></li>
+        <li><a href="#fees">Fees</a></li>
+        <li><a href="#ownership">Our ownership</a></li>
+        <li><a href="#privacy">Privacy</a></li>
+        <li><a href="#termination">Suspension and termination</a></li>
+        <li><a href="#changes">Changes</a></li>
+        <li><a href="#disclaimers">Disclaimers</a></li>
+        <li><a href="#liability">Limitation of liability</a></li>
+        <li><a href="#indemnity">Indemnification</a></li>
+        <li><a href="#law">Governing law and disputes</a></li>
+        <li><a href="#general">General terms</a></li>
+        <li><a href="#contact">Contact us</a></li>
+      </ol>
+    </nav>
+
+    <section id="who-we-are">
+      <h2>1. Who we are</h2>
+      <p>Wimya is operated by Snaap, Inc. (referred to as “Snaap,” “Wimya,” “we,” “us,” or “our”). These Terms of Service (“Terms”) are an agreement between you and Snaap governing your use of the Wimya mobile application and related websites, features, content, and services (collectively, the “Service”).</p>
+    </section>
+
+    <section id="eligibility">
+      <h2>2. Eligibility</h2>
+      <p>You must be at least 18 years old to create an account or use the Service. By using the Service, you represent and warrant that you are at least 18, have the legal capacity to enter into these Terms, and are not prohibited from using the Service under applicable law. If we learn that a user is under 18, we may suspend or terminate the account and delete associated information as permitted or required by law.</p>
+      <p>If you use the Service on behalf of a company or other organization, you represent that you are authorized to bind that organization to these Terms.</p>
+    </section>
+
+    <section id="service">
+      <h2>3. The Service</h2>
+      <p>Wimya helps users connect with people they know (“pals”), selectively share calendar events, and view event information shared through the Service. Features may include profiles, invitations or QR-code connections, event feeds, links, locations, and other social or planning tools.</p>
+      <p>We may add, remove, suspend, or modify features at any time. We do not guarantee that any particular feature or content will always be available, accurate, or compatible with every device.</p>
+    </section>
+
+    <section id="accounts">
+      <h2>4. Accounts and security</h2>
+      <p>You agree to provide accurate information, keep it current, maintain the confidentiality of your credentials, and promptly notify us if you suspect unauthorized access to your account. You are responsible for activity occurring through your account except to the extent caused by our breach of these Terms or applicable law.</p>
+      <p>You may not sell, transfer, license, or share access to your account. We may require you to verify account information or take reasonable steps to protect the Service and its users.</p>
+    </section>
+
+    <section id="permissions">
+      <h2>5. Calendar, camera, and device permissions</h2>
+      <p>Some features require permission to access device capabilities or data. For example, Wimya may request calendar access so you can review and select events to share, and camera access so you can scan QR codes to connect with pals. You control these permissions through your device settings and may revoke them at any time, although doing so may prevent related features from working.</p>
+      <p>You are responsible for reviewing event details before sharing them. Do not share confidential information, private meeting links, addresses, or another person’s information unless you have the right and permission to do so.</p>
+    </section>
+
+    <section id="content">
+      <h2>6. Your content</h2>
+      <p>“Your Content” means information or material you submit, upload, publish, or share through the Service, such as profile information, photographs, event names, event details, locations, and links. You retain ownership of Your Content.</p>
+      <p>You grant Snaap a worldwide, non-exclusive, royalty-free license to host, store, reproduce, format, transmit, display, and otherwise use Your Content only as reasonably necessary to operate, secure, improve, and provide the Service, comply with law, and enforce these Terms. This license lasts while Your Content is available through the Service and for a reasonable period afterward for backups, legal compliance, fraud prevention, and security.</p>
+      <p>You represent that you have all rights necessary to provide Your Content and grant this license. You are responsible for Your Content and for deciding what to share and with whom. We may remove or restrict content that violates these Terms, infringes rights, creates risk, or is otherwise unlawful or objectionable.</p>
+    </section>
+
+    <section id="conduct">
+      <h2>7. Acceptable use</h2>
+      <p>You may not use the Service to:</p>
+      <ul>
+        <li>violate any law, regulation, court order, or another person’s rights;</li>
+        <li>harass, threaten, stalk, impersonate, exploit, or harm another person;</li>
+        <li>publish or share content that is unlawful, fraudulent, defamatory, obscene, hateful, or invasive of privacy;</li>
+        <li>share sensitive, confidential, or personal information without authorization;</li>
+        <li>send spam, unsolicited promotions, malware, or deceptive communications;</li>
+        <li>access another person’s account or collect information about users without permission;</li>
+        <li>scrape, crawl, reverse engineer, disrupt, overload, or attempt to bypass security or access controls, except where applicable law expressly permits such activity;</li>
+        <li>use bots or automated means to create accounts or interact with the Service without our written permission; or</li>
+        <li>use the Service to facilitate dangerous, illegal, or unauthorized activities.</li>
+      </ul>
+    </section>
+
+    <section id="events">
+      <h2>8. Events, locations, and other users</h2>
+      <p>Wimya is a planning and sharing tool. We do not organize, sponsor, endorse, verify, or control events or users merely because they appear in the Service. Event information may be incomplete, outdated, inaccurate, canceled, duplicated, or changed by its source.</p>
+      <p>You are solely responsible for deciding whether to connect with another user, attend an event, follow an external link, travel to a location, or share information. Exercise appropriate judgment and take reasonable personal-safety precautions. We are not responsible for the conduct of users, organizers, venues, or other third parties.</p>
+    </section>
+
+    <section id="third-parties">
+      <h2>9. Third-party services</h2>
+      <p>The Service may rely on or link to third-party products and services, including app stores, authentication providers, calendar providers, mapping tools, cloud infrastructure, event websites, and external links shared by users. Those services are governed by their own terms and privacy policies. Snaap does not control and is not responsible for third-party services, content, security, availability, or practices.</p>
+    </section>
+
+    <section id="fees">
+      <h2>10. Fees</h2>
+      <p>Wimya is currently provided free of charge. We may offer paid features or subscriptions in the future. If we do, we will disclose the applicable price and material payment terms before you are charged, and any purchase will also be subject to the terms of the applicable app store or payment provider. We will not charge you merely because these Terms change.</p>
+    </section>
+
+    <section id="ownership">
+      <h2>11. Our ownership</h2>
+      <p>The Service—including its software, design, branding, interfaces, text, graphics, and other content provided by Snaap—is owned by Snaap or its licensors and is protected by intellectual-property laws. Subject to these Terms, Snaap grants you a limited, personal, revocable, non-exclusive, non-transferable license to install and use the Service for its intended purpose.</p>
+      <p>Wimya, Snaap, and associated names, logos, and branding may be trademarks of Snaap. These Terms do not grant you a right to use them. If you provide feedback, you allow us to use it without restriction or compensation, but you are not required to provide feedback.</p>
+    </section>
+
+    <section id="privacy">
+      <h2>12. Privacy</h2>
+      <p>Our Privacy Policy explains how we collect, use, disclose, and protect personal information. By using the Service, you acknowledge that your information will be handled as described in the Privacy Policy. These Terms do not limit any privacy rights available to you under applicable law.</p>
+    </section>
+
+    <section id="termination">
+      <h2>13. Suspension, termination, and account deletion</h2>
+      <p>You may stop using the Service at any time. Where an account-deletion feature is available, you may use it to request deletion; you may also contact us using the information below.</p>
+      <p>We may suspend or terminate access, remove content, or take other reasonable action if we believe you violated these Terms, created risk or legal exposure, engaged in fraud or abuse, or if suspension is necessary to protect the Service or others. When reasonably practicable, we will provide notice. Provisions that by their nature should survive termination—including ownership, disclaimers, liability limitations, indemnification, dispute terms, and general provisions—will survive.</p>
+    </section>
+
+    <section id="changes">
+      <h2>14. Changes to the Service or these Terms</h2>
+      <p>We may update these Terms from time to time. If a change is material, we will provide reasonable notice through the Service, by email, or by another appropriate method. Updated Terms will state their effective date. Unless applicable law requires otherwise, your continued use after the updated Terms take effect means you accept them. If you do not agree, you must stop using the Service.</p>
+    </section>
+
+    <section id="disclaimers">
+      <h2>15. Disclaimers</h2>
+      <p class="legal-caps">TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE SERVICE IS PROVIDED “AS IS” AND “AS AVAILABLE.” SNAAP AND ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, LICENSORS, AND SERVICE PROVIDERS DISCLAIM ALL EXPRESS, IMPLIED, AND STATUTORY WARRANTIES, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, ACCURACY, SECURITY, AND QUIET ENJOYMENT.</p>
+      <p class="legal-caps">WE DO NOT WARRANT THAT THE SERVICE WILL BE UNINTERRUPTED, ERROR-FREE, SECURE, OR FREE OF HARMFUL COMPONENTS; THAT CONTENT OR EVENT INFORMATION WILL BE ACCURATE OR AVAILABLE; OR THAT USERS, EVENTS, VENUES, LINKS, OR THIRD-PARTY SERVICES WILL BE SAFE OR RELIABLE. SOME JURISDICTIONS DO NOT ALLOW CERTAIN WARRANTY DISCLAIMERS, SO SOME OF THESE DISCLAIMERS MAY NOT APPLY TO YOU.</p>
+    </section>
+
+    <section id="liability">
+      <h2>16. Limitation of liability</h2>
+      <p class="legal-caps">TO THE MAXIMUM EXTENT PERMITTED BY LAW, SNAAP AND ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, LICENSORS, AND SERVICE PROVIDERS WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR LOST PROFITS, REVENUE, DATA, GOODWILL, OR OPPORTUNITIES, ARISING OUT OF OR RELATING TO THE SERVICE OR THESE TERMS, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</p>
+      <p class="legal-caps">TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE TOTAL LIABILITY OF SNAAP AND THE OTHER SNAAP PARTIES FOR ALL CLAIMS ARISING OUT OF OR RELATING TO THE SERVICE OR THESE TERMS WILL NOT EXCEED THE GREATER OF (A) THE AMOUNT YOU PAID SNAAP FOR THE SERVICE DURING THE 12 MONTHS BEFORE THE EVENT GIVING RISE TO LIABILITY OR (B) US $100.</p>
+      <p>These limitations do not apply to liability that cannot lawfully be excluded or limited. Your jurisdiction may give you additional rights.</p>
+    </section>
+
+    <section id="indemnity">
+      <h2>17. Indemnification</h2>
+      <p>To the extent permitted by law, you agree to defend, indemnify, and hold harmless Snaap and its affiliates, officers, directors, employees, and agents from claims, damages, losses, liabilities, and reasonable legal fees arising from Your Content, your misuse of the Service, your violation of these Terms or applicable law, or your infringement of another person’s rights. This obligation does not apply to the extent a claim results from Snaap’s own unlawful conduct, negligence, or willful misconduct.</p>
+    </section>
+
+    <section id="law">
+      <h2>18. Governing law and disputes</h2>
+      <p>These Terms and any dispute arising out of or relating to them or the Service are governed by the laws of the State of Delaware, without regard to conflict-of-laws principles. This choice of law does not deprive you of mandatory consumer protections that apply under the laws of your place of residence.</p>
+      <p>To the extent permitted by law, you and Snaap agree that disputes will be brought exclusively in the state or federal courts located in Delaware, and each party consents to the personal jurisdiction of those courts. Before filing a claim, you agree to contact us and attempt in good faith to resolve the dispute informally for at least 30 days. Nothing in these Terms prevents either party from seeking relief in small-claims court where eligible or seeking urgent injunctive relief. If applicable law gives you the right to bring a claim elsewhere, this paragraph does not override that right.</p>
+    </section>
+
+    <section id="general">
+      <h2>19. General terms</h2>
+      <p>These Terms, together with any policies or supplemental terms expressly incorporated into them, constitute the entire agreement between you and Snaap concerning the Service. If a provision is found unenforceable, it will be modified to the minimum extent necessary or severed, and the remaining provisions will remain effective.</p>
+      <p>Our failure to enforce a provision is not a waiver. You may not assign these Terms without our written consent. We may assign them in connection with a merger, acquisition, reorganization, sale of assets, or by operation of law. No third party has a right to enforce these Terms unless expressly stated otherwise. Section headings are for convenience only.</p>
+    </section>
+
+    <section id="contact">
+      <h2>20. Contact us</h2>
+      <p>Questions, notices, or concerns about these Terms may be sent to:</p>
+      <address>
+        <strong>Snaap, Inc.</strong><br>
+        P.O. Box 701<br>
+        Menlo Park, CA 94026<br>
+        United States<br>
+        <a href="mailto:runtimesquad@gmail.com">runtimesquad@gmail.com</a>
+      </address>
+    </section>
+
+    <footer>
+      <p>© 2026 Snaap, Inc. All rights reserved.</p>
+    </footer>
+  </main>
+
+  <script>
+    function downloadTerms() {
+      const source = "<!doctype html>\n" + document.documentElement.outerHTML;
+      const blob = new Blob([source], { type: "text/html;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "wimya-terms-of-service.html";
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      URL.revokeObjectURL(url);
+    }
+  </script>
+
+
+</body><div id="codex-browser-sidebar-comments-root" style="position: fixed; inset: 0px; pointer-events: none; z-index: 2147483647;"></div></html>

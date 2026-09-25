@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Privacy Policy for Wimya, operated by Snaap, Inc.">
+  <title>Wimya Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --background: #f5f7fb;
+      --surface: #fff;
+      --text: #172033;
+      --muted: #5f6878;
+      --accent: #3157d5;
+      --border: #dfe4ec;
+      --notice: #f0f4ff;
+      --shadow: 0 16px 44px rgba(31, 44, 74, .10);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+    main {
+      width: min(840px, calc(100% - 32px));
+      margin: 48px auto;
+      padding: clamp(28px, 6vw, 72px);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      box-shadow: var(--shadow);
+    }
+    h1, h2, h3 { line-height: 1.25; }
+    h1 { margin: 0 0 8px; font-size: clamp(2rem, 6vw, 3.25rem); letter-spacing: -.035em; }
+    h2 { margin-top: 2.5rem; font-size: 1.4rem; letter-spacing: -.015em; }
+    h3 { margin-top: 1.6rem; font-size: 1.08rem; }
+    p, li { max-width: 74ch; }
+    a { color: var(--accent); text-underline-offset: .15em; }
+    address { font-style: normal; }
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .94rem; }
+    th, td { padding: 12px; border: 1px solid var(--border); text-align: left; vertical-align: top; }
+    th { background: #f7f8fb; }
+    .eyebrow { margin: 0 0 10px; color: var(--accent); font-size: .78rem; font-weight: 750; letter-spacing: .12em; text-transform: uppercase; }
+    .effective-date { margin: 0; color: var(--muted); }
+    .notice { margin: 32px 0; padding: 18px 20px; border-left: 4px solid var(--accent); border-radius: 8px; background: var(--notice); }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 26px 0 6px; }
+    button { appearance: none; padding: 10px 16px; border: 1px solid var(--border); border-radius: 999px; background: var(--surface); color: var(--text); font: inherit; font-weight: 650; cursor: pointer; }
+    button:hover { border-color: var(--accent); color: var(--accent); }
+    button:focus-visible, a:focus-visible { outline: 3px solid #8eabff; outline-offset: 3px; }
+    .contents { margin: 32px 0; padding: 22px 24px; border: 1px solid var(--border); border-radius: 12px; }
+    .contents h2 { margin-top: 0; }
+    .contents ol { columns: 2; column-gap: 36px; padding-left: 1.25rem; }
+    .contents li { break-inside: avoid; margin-bottom: .25rem; }
+    footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--muted); }
+    @media (max-width: 680px) {
+      main { width: 100%; margin: 0; border: 0; border-radius: 0; }
+      .contents ol { columns: 1; }
+      table, thead, tbody, tr, th, td { display: block; }
+      thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+      tr { margin-bottom: 14px; border: 1px solid var(--border); }
+      td { border: 0; border-bottom: 1px solid var(--border); }
+      td:last-child { border-bottom: 0; }
+      td::before { content: attr(data-label); display: block; margin-bottom: 3px; font-weight: 700; }
+    }
+    @media print {
+      body { background: #fff; font-size: 10.5pt; }
+      main { width: 100%; margin: 0; padding: 0; border: 0; box-shadow: none; }
+      .actions, .contents { display: none; }
+      h2, h3 { break-after: avoid; }
+      table { break-inside: avoid; }
+      a { color: inherit; text-decoration: none; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">Wimya legal</p>
+      <h1>Privacy Policy</h1>
+      <p class="effective-date"><strong>Effective date:</strong> September 25, 2026</p>
+      <div class="actions" aria-label="Document actions">
+        <button type="button" onclick="window.print()">Print or save as PDF</button>
+        <button type="button" onclick="downloadPolicy()">Download HTML</button>
+      </div>
+    </header>
+
+    <div class="notice">
+      <strong>Your privacy at a glance.</strong> Wimya lets adults connect with pals and selectively share calendar events. We do not currently sell personal information, share it for cross-context behavioral advertising, serve targeted ads, or use analytics, crash-reporting, advertising, attribution, or marketing SDKs.
+    </div>
+
+    <p>This Privacy Policy explains how Snaap, Inc. (“Snaap,” “Wimya,” “we,” “us,” or “our”) collects, uses, discloses, and protects personal information when you use the Wimya mobile application and related services (the “Service”).</p>
+
+    <nav class="contents" aria-label="Table of contents">
+      <h2>Contents</h2>
+      <ol>
+        <li><a href="#scope">Scope</a></li>
+        <li><a href="#collect">Information we collect</a></li>
+        <li><a href="#calendar">Calendar and device access</a></li>
+        <li><a href="#use">How we use information</a></li>
+        <li><a href="#disclose">How we disclose information</a></li>
+        <li><a href="#visibility">Visibility and your choices</a></li>
+        <li><a href="#retention">Retention</a></li>
+        <li><a href="#security">Security</a></li>
+        <li><a href="#rights">Your privacy rights</a></li>
+        <li><a href="#california">California notice</a></li>
+        <li><a href="#international">International processing</a></li>
+        <li><a href="#children">Age restriction</a></li>
+        <li><a href="#changes">Changes</a></li>
+        <li><a href="#contact">Contact us</a></li>
+      </ol>
+    </nav>
+
+    <section id="scope">
+      <h2>1. Scope</h2>
+      <p>This Policy applies to personal information processed through the Service. It does not apply to third-party services governed by their own privacy policies, including Apple, Google, event websites, or links shared by users.</p>
+    </section>
+
+    <section id="collect">
+      <h2>2. Information we collect</h2>
+      <h3>Information you provide</h3>
+      <ul>
+        <li><strong>Account and authentication information:</strong> email address, authentication-provider identifiers, and account identifiers. If you sign in with Apple or Google, we receive information that provider makes available based on your settings, such as your name, email address, profile photo, and a provider-specific identifier. Password authentication is handled by Firebase Authentication; we do not store your password in Wimya’s profile database.</li>
+        <li><strong>Profile information:</strong> name, title, biography, profile photo, and your Wimya account number or identifier.</li>
+        <li><strong>Connections:</strong> pal requests, participants, status, and related timestamps.</li>
+        <li><strong>Event information you choose to share:</strong> event name, web link, location, start and end times, source type, and technical identifiers used to recognize duplicates.</li>
+        <li><strong>Communications:</strong> information you include when contacting us for support, privacy requests, or other inquiries.</li>
+      </ul>
+
+      <h3>Information collected automatically</h3>
+      <p>Our infrastructure and service providers may automatically receive limited technical and usage information needed to deliver, secure, and maintain the Service, such as IP address, device and operating-system information, app version, language, time zone, request timestamps, authentication events, diagnostics, and security or fraud signals. Firebase Remote Config may use an app-instance identifier and device information to deliver configuration values.</p>
+      <p>Wimya does not currently use analytics, crash-reporting, advertising, attribution, or marketing SDKs. We may adopt such tools later. Before doing so, we will update this Policy and provide any notice, choice, or consent required by law.</p>
+    </section>
+
+    <section id="calendar">
+      <h2>3. Calendar, camera, and photo access</h2>
+      <ul>
+        <li><strong>Calendar:</strong> with your permission, Wimya reads calendar events on your device so you can review and select events to share. We upload only events you affirmatively select. For selected events, we may store the event details listed above and calendar and event identifiers used to prevent duplicate imports. Those source identifiers are restricted to your account.</li>
+        <li><strong>Camera:</strong> with your permission, Wimya uses the camera to scan QR codes for connecting with pals. Camera images used for live QR scanning are processed for that purpose and are not uploaded by Wimya.</li>
+        <li><strong>Photos:</strong> when you choose a profile photo, the processed image is uploaded and stored as part of your profile. If you choose an image to scan a QR code, Wimya accesses only the image you select and processes it on your device for that purpose.</li>
+      </ul>
+      <p>You can change device permissions in iOS Settings, although disabling a permission may prevent the related feature from working.</p>
+    </section>
+
+    <section id="use">
+      <h2>4. How we use information</h2>
+      <p>We use personal information to:</p>
+      <ul>
+        <li>create, authenticate, and maintain accounts;</li>
+        <li>provide profiles, pal connections, event sharing, feeds, and related features;</li>
+        <li>show shared events to the account owner and accepted pals;</li>
+        <li>process selected profile photos and prevent duplicate event imports;</li>
+        <li>configure, operate, troubleshoot, secure, and improve the Service;</li>
+        <li>respond to support, privacy, and legal requests;</li>
+        <li>detect and prevent fraud, abuse, security incidents, and violations of our Terms; and</li>
+        <li>comply with law and protect the rights, safety, and integrity of users, Snaap, and others.</li>
+      </ul>
+    </section>
+
+    <section id="disclose">
+      <h2>5. How we disclose information</h2>
+      <p>We may disclose personal information in the following circumstances:</p>
+      <ul>
+        <li><strong>To other Wimya users:</strong> signed-in users may see profile information. Accepted pals may see the events you share, including event names, links, locations, and times. Pal-request information is available to the users involved.</li>
+        <li><strong>To service providers:</strong> vendors process information for us to provide hosting, authentication, database, storage, configuration, security, and technical operations. Current providers include Google’s Firebase services. Apple and Google process information when you use their sign-in services.</li>
+        <li><strong>For legal and safety reasons:</strong> we may disclose information when we reasonably believe disclosure is required by law or necessary to protect rights, safety, security, investigate misuse, or enforce agreements.</li>
+        <li><strong>In a business transaction:</strong> information may be disclosed in connection with financing, due diligence, a merger, acquisition, reorganization, bankruptcy, or sale of assets, subject to appropriate protections.</li>
+        <li><strong>With your direction or consent:</strong> we may disclose information when you direct us to do so or otherwise consent.</li>
+      </ul>
+      <p><strong>No sale or behavioral advertising.</strong> We do not currently sell personal information, share personal information for cross-context behavioral advertising, or use personal information to serve targeted advertising. If these practices change, we will update this Policy and provide legally required rights, notices, and choices before or when the change takes effect.</p>
+    </section>
+
+    <section id="visibility">
+      <h2>6. Visibility and your choices</h2>
+      <ul>
+        <li><strong>Profiles:</strong> your name, title, biography, profile photo, and account identifier may be visible to other signed-in Wimya users.</li>
+        <li><strong>Events:</strong> shared events are visible to you and your accepted pals. Event-source identifiers used for importing are visible only to you and our service providers.</li>
+        <li><strong>Connections:</strong> pal requests and relationship status are visible to the users involved.</li>
+        <li><strong>Permissions:</strong> you may manage calendar, camera, and photo access through your device and in-app choices.</li>
+        <li><strong>Authentication:</strong> you may manage certain sign-in information through Apple, Google, or your applicable provider.</li>
+      </ul>
+      <p>Be thoughtful about sharing event locations, meeting links, and information relating to other people. Information another user has already viewed or copied may remain outside our control.</p>
+    </section>
+
+    <section id="retention">
+      <h2>7. Data retention</h2>
+      <p>We retain personal information for as long as reasonably necessary to provide and secure the Service, maintain your account, fulfill the purposes described in this Policy, resolve disputes, enforce agreements, and satisfy legal obligations. Retention depends on the type of information, why we collected it, operational needs, sensitivity, and legal requirements.</p>
+      <p>When information is no longer needed, we take reasonable steps to delete or de-identify it. Some information may remain for a limited period in backups or where retention is necessary for security, fraud prevention, legal compliance, or establishing or defending legal claims.</p>
+    </section>
+
+    <section id="security">
+      <h2>8. Data security</h2>
+      <p>We use administrative, technical, and organizational safeguards designed to protect personal information, including authenticated access controls and restrictions based on account relationships. No system is completely secure, and we cannot guarantee that information will never be accessed, lost, or altered without authorization. You are responsible for protecting your account credentials and notifying us if you suspect unauthorized access.</p>
+    </section>
+
+    <section id="rights">
+      <h2>9. Your privacy rights</h2>
+      <p>Depending on where you live, you may have rights to request access to, correction of, deletion of, or a copy of your personal information; to object to or restrict certain processing; to withdraw consent where processing relies on consent; and to appeal our response. You may also have the right to complain to a data-protection authority.</p>
+      <p>To delete your account or submit a privacy request, email <a href="mailto:runtimesquad@gmail.com">runtimesquad@gmail.com</a>. Describe your request and the email address associated with your Wimya account. We may need to verify your identity before acting. Authorized agents may submit requests where permitted by law, but we may require proof of authorization and identity verification. We will not discriminate against you for exercising a privacy right.</p>
+    </section>
+
+    <section id="california">
+      <h2>10. California privacy notice</h2>
+      <p>This section supplements the rest of this Policy for California residents. In the preceding 12 months, we may have collected and disclosed the following categories of personal information for the business purposes described in this Policy:</p>
+      <table>
+        <thead><tr><th>Category</th><th>Examples</th><th>Recipients</th></tr></thead>
+        <tbody>
+          <tr><td data-label="Category">Identifiers</td><td data-label="Examples">Name, email, account and provider identifiers, IP address</td><td data-label="Recipients">Other users as directed; infrastructure, authentication, and security providers</td></tr>
+          <tr><td data-label="Category">Customer-record information</td><td data-label="Examples">Profile and account details</td><td data-label="Recipients">Other users as described above; service providers</td></tr>
+          <tr><td data-label="Category">Internet or electronic activity</td><td data-label="Examples">Authentication events, app and device information, security and operational logs</td><td data-label="Recipients">Infrastructure, authentication, configuration, and security providers</td></tr>
+          <tr><td data-label="Category">Approximate or user-provided location information</td><td data-label="Examples">IP-derived general location; locations contained in events you select to share</td><td data-label="Recipients">Accepted pals for shared events; service providers</td></tr>
+          <tr><td data-label="Category">Visual information</td><td data-label="Examples">Profile photograph</td><td data-label="Recipients">Signed-in users; storage providers</td></tr>
+          <tr><td data-label="Category">Inferences</td><td data-label="Examples">Connection status and event-sharing preferences reflected by your actions</td><td data-label="Recipients">Users involved in the relevant interaction; service providers</td></tr>
+        </tbody>
+      </table>
+      <p>We collect these categories from you, your device, authentication providers, and your interactions with other users. We use them for the purposes in Section 4. We do not currently sell or share these categories for cross-context behavioral advertising, and we have no actual knowledge that we sell or share the personal information of anyone under 18. We do not currently offer financial incentives related to personal information.</p>
+      <p>California residents may request to know, access, correct, or delete personal information and may request information about categories of collection, sources, purposes, and recipients. Because we do not currently sell or share personal information as those terms are defined by California law, there is no need to opt out of those practices at this time. Submit requests as explained in Section 9.</p>
+    </section>
+
+    <section id="international">
+      <h2>11. International processing</h2>
+      <p>Snaap is based in the United States, and we and our service providers may process information in the United States and other countries. Those countries may have different privacy laws than your country. Where required, we use appropriate safeguards for international transfers.</p>
+    </section>
+
+    <section id="children">
+      <h2>12. Age restriction</h2>
+      <p>Wimya is intended only for people aged 18 or older. We do not knowingly collect personal information from anyone under 18. If you believe a person under 18 has provided personal information through Wimya, contact us so we can investigate and take appropriate action.</p>
+    </section>
+
+    <section id="changes">
+      <h2>13. Changes to this Policy</h2>
+      <p>We may update this Policy as the Service or legal requirements change. We will post the updated Policy with a new effective date and provide additional notice when required by law. If we introduce materially different practices—such as targeted advertising, sale or sharing of personal information, or new analytics or marketing tools—we will describe them in an updated policy and obtain consent where required before applying them.</p>
+    </section>
+
+    <section id="contact">
+      <h2>14. Contact us</h2>
+      <p>Snaap, Inc. is responsible for the personal information described in this Policy. Contact us with questions, complaints, account-deletion requests, or privacy requests:</p>
+      <address>
+        <strong>Snaap, Inc.</strong><br>
+        P.O. Box 701<br>
+        Menlo Park, CA 94026<br>
+        United States<br>
+        <a href="mailto:runtimesquad@gmail.com">runtimesquad@gmail.com</a>
+      </address>
+    </section>
+
+    <footer><p>&copy; 2026 Snaap, Inc. All rights reserved.</p></footer>
+  </main>
+  <script>
+    function downloadPolicy() {
+      const source = "<!doctype html>\n" + document.documentElement.outerHTML;
+      const blob = new Blob([source], { type: "text/html;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "wimya-privacy-policy.html";
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      URL.revokeObjectURL(url);
+    }
+  </script>
+</body>
+</html>
